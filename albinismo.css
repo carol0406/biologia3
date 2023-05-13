@@ -1,0 +1,33 @@
+
+
+
+
+.albinismo {
+
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-left: 12.7;
+  }
+ 
+  .cabecalho {
+    padding: 0%;
+    padding-left: 1em;
+    background-color: #55F27F;
+  }
+ 
+ .espacobranco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f0f0f0;
+    align-items: center;
+    padding-left: 12.4em;
+  }
+
+
+
+
+
+
