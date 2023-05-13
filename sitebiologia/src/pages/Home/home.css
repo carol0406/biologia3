@@ -36,15 +36,42 @@
     background-color: #55f27f;
     max-height: 10em;
     width: 100%;
-    padding: 1em;
-    font-family: "Lexend-Bold";
   }
 
-  .titulo {
+  .titulo-cabecalho {
+    font-size: 1.2em;
+    width: 16em;
+    padding: 1em;
+    font-family: "Lexend-Bold";
+    text-transform: uppercase;
+  }
+
+  .imagem-cabecalho {
+    width: 12em;
+    height: 8em;
+  }
+
+  .titulo1 {
     font-size: 2.5em;
     font-family: "Lexend-Bold";
     width: 5em;
     margin: 1em 0em;
+    text-transform: uppercase;
+  }
+
+  .titulo {
+    padding: 1em;
+    font-size: 2.5em;
+    font-family: "Lexend-Bold";
+    width: 5em;
+    margin: 1em 0em;
+  }
+
+  .subtitulo {
+    font-family: "Lexend-Bold";
+    padding: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
   }
   
   .texto {
@@ -62,17 +89,16 @@
     align-items: center;
   }
 
-  .conteudo {
+  .conteudo1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     height: 100vh;
     background-color: #ffffff;
     align-items: center;
   }
 
-  .conteudo-textos {
+  .conteudo1-textos {
     align-items: center;
     padding: 1em;
     margin: 0em 5em;
@@ -83,5 +109,69 @@
     height: 20em;
   }
   
+  .conteudo2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    padding: 5em 0px;
+    align-items: center;
+    background-color: #1E8BF3;
+  }
+
+  .componentes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .componente {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 2em 5em;
+    padding: 1em;
+    border-radius: 1.5em;
+    height: 18em;
+    width: 10em;
+    align-items: center;
+  }
+
+  .componente-titulo {
+    font-family: "Lexend-Bold";
+    font-size: 1em;
+    margin: 1em 0em;
+    text-align: center;
+
+  }
+
+  .componenteimg {
+    width: 8em;
+    height: 8em;
+    margin: 1em 0em;
+  }
+
+  .botao {
+    width: 8em;
+    padding: 0.5em 1em;
+    background-color: #1E8BF3;
+    color: #fff;
+    font-family: "Lexend-Bold";
+    text-decoration: none;
+    border-radius: 0.5em;
+    text-align: center;
+    margin: 1em 0em;
+    text-transform: capitalize;
+  }
   
-  
+  .botao:hover {
+    background-color: #1772c7;
+  }
+
+  .rodape {
+    min-height: 15em;
+    background-color: #55f27f;
+    width: 100%;
+  }
