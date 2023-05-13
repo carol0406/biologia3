@@ -1,17 +1,48 @@
+@font-face {
+  font-family: "Lexend-Black";
+  src: url("../../fonts/Lexend-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lexend-Bold";
+  src: url("../../fonts/Lexend-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lexend-Regular";
+  src: url("../../fonts/Lexend-Regular.ttf");
+}
+
 .pageHome {
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    padding-left: 12.7;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
   }
-  
   
   .cabecalho {
-    padding: 0%;
-    padding-left: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color: #55F27F;
+    width: 100%;
+    font-family: "Lexend-Bold";
+  }
+
+  .titulo {
+    font-size: 2.5em;
+    font-family: "Lexend-Bold";
   }
   
+  .texto {
+    word-wrap: break-word;
+    width: 15em;
+    font-size: 1.5em;
+    font-family: "Lexend-Regular";
+  }
   
   .elementos-home {
     display: flex;
@@ -19,28 +50,17 @@
     width: 100%;
     background-color: #f0f0f0;
     align-items: center;
-    padding-left: 12.4em;
   }
   
   
-  .espaco-branco {
+  .conteudo {
     width: 100%;
-    height: 90Vh;
-    background-image: url();
-    position: absolute;
-    width: 676px;
-    height: 438px;
-    left: 818px;
-    top: 227px;
-   
-    background: url(bio.png);
-   
+    height: 100%;
+    background-image: url(../../images/bio.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 400px;
-    background-color: #f0f0f0;
-  
-  
+    background-color: #ffffff;
   }
   
   
