@@ -1,11 +1,34 @@
 .Doenca {
-
-
-
-
+ align-items: center;
+padding-left: 35px;
 }
 
 
 .imagem1 {
-width:5em;
+width:15em;
 }
+
+.imagem2 {
+padding-right: 50px;
+    width: 15em;
+}
+
+
+.pagina {
+display: flex;
+flex-direction: row;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #55f27f;
+    max-height: 10em;
+    width: 100%;
+    padding: 2em;
+    font-family: "Lexend-Bold";
+  }
