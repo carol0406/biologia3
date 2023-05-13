@@ -36,19 +36,20 @@
     background-color: #55f27f;
     max-height: 10em;
     width: 100%;
-    padding: 2em;
+    padding: 1em;
     font-family: "Lexend-Bold";
   }
 
   .titulo {
     font-size: 2.5em;
     font-family: "Lexend-Bold";
+    width: 5em;
     margin: 1em 0em;
   }
   
   .texto {
     word-wrap: break-word;
-    width: 15em;
+    width: 25em;
     font-size: 1.5em;
     font-family: "Lexend-Regular";
   }
@@ -64,7 +65,7 @@
   .conteudo {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
     background-color: #ffffff;
@@ -74,6 +75,12 @@
   .conteudo-textos {
     align-items: center;
     padding: 1em;
+    margin: 0em 5em;
+  }
+
+  .imagem {
+    width: 40em;
+    height: 20em;
   }
   
   
