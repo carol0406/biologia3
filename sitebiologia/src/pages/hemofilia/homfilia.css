@@ -19,15 +19,23 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
     background-color: #55f27f;
     max-height: 10em;
     width: 100%;
-    padding: 0.5em;
-    font-family: "Lexend-Bold";
-    position: static;
-   }
+  }
 
+  .titulo-cabecalho {
+    font-size: 1.2em;
+    width: 16em;
+    padding: 1em;
+    font-family: "Lexend-Bold";
+    text-transform: uppercase;
+  }
+
+  .imagem-cabecalho {
+    width: 12em;
+    height: 8em;
+  }
 
    .Hemofilia {
     display: flex;

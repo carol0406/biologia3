@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+  font-family: "Lexend-Black";
+  src: url("../fonts/Lexend-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lexend-Bold";
+  src: url("../fonts/Lexend-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lexend-Regular";
+  src: url("../fonts/Lexend-Regular.ttf");
+}
+
+
+.formatacao-de-pagina {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Lexend-Regular';
+  padding: 1em;
+}
+
+.formatacao-imagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imagem-formatacao {
+  width: 20em;
+  height: 20em;
+  padding: 2em;
+}
+
+p {
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #55f27f;
+  max-height: 10em;
+  width: 100%;
+}
+
+.titulo-cabecalho {
+  font-size: 1.2em;
+  width: 16em;
+  padding: 1em;
+  font-family: "Lexend-Bold";
+  text-transform: uppercase;
+}
+
+.imagem-cabecalho {
+  width: 12em;
+  height: 8em;
+}

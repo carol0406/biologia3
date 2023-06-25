@@ -13,6 +13,15 @@
     src: url("../../fonts/Lexend-Regular.ttf");
   }
 
+  .pagina {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+  }
+
   
   .cabecalho {
     display: flex;

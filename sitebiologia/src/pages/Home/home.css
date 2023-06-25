@@ -13,10 +13,6 @@
   src: url("../../fonts/Lexend-Regular.ttf");
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 .pageHome {
     display: flex;
@@ -117,7 +113,7 @@
     width: 100%;
     height: fit-content;
     min-height: 100vh;
-    padding: 5em 0px;
+    padding: 10em 0px;
     align-items: center;
     background-color: #1E8BF3;
   }
@@ -170,123 +166,69 @@
   
   .botao:hover {
     background-color: #1772c7;
+    cursor: cell;
   }
 
   .rodape {
-    min-height: 15em;
+    display: flex;
+    flex-direction: row;
     background-color: #55f27f;
     width: 100%;
   }
 
-
-
-  .atendimento {
-    padding-left: 200px;
-    color: #fff;
+  .bloco {
+    padding: 5em 0em;
+    display: flex;
+    width: 20%;
     flex-direction: column;
-    justify-content: center;
-    
-
-  }
-
-  .atendimento2 {
-    padding-left: 200px;
- flex-direction: column;
-justify-content: center;
-
-
+    align-items: center;
   }
 
 
-  .midias {
+  .titulo-rodape {
     color: #fff;
-    padding-left: 450px;
-  
-     }
+    font-family: "Lexend-Bold";
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10%;
+    padding: 1em 1.5em;
+  }
 
-
+  .lista-rodape {
+    font-family: "Lexend-Regular";
+    font-size: 14px;
+    line-height: 2.5em;
+    min-width: 75%;
+  }
 
   .midiassociais {
-    padding-left:440px;
-
-
+    display: flex;
+    flex-direction: row;
+    font-family: "Lexend-Regular";
+    font-size: 14px;
+    padding: 0.5em 1em;
+    line-height: 2.5em;
+    align-items: center;
+    width: 100%;
   }
 
-.email 
-{
-  color: #fff;
-    padding-left: 40px;
-    margin-bottom: 28px;  
-    display: flexbox;
-    flex-direction: column;
-}
+  .bloco:hover {
+    background-color: #3cce63;
+  }
 
+ .lista-rodape li {
+    list-style-type: none;
+  }
 
-.email2{
+  .iconinstagram {
+    width: 40px;
+    height: 40px;
+    margin: 0px 3em 0px 0px;
+  }
 
-
-  padding-left: 430px;
-   
-
-
-}
-
-
-.geral {
-
-
-}
-
-.geral2{
-
-
-}
-
-
-
-.endereço{
-color: #fff;
-padding-left: 670px;
-
-
-}
-
-
-.endereco2{
-padding-left: 670px;
-
-
-
-}
-
-
-.fontes {
-color: #fff;
-padding-left: 1px;
-
-}
-
-
-.fontes2{
- padding-left: 1px;
-
-
-}
-
-
-
-.Criadoras {
-color: #fff;
-padding-left: 430px;
-
-
-
-}
-
-
-.criadoras2{
-
-  color: #000;
-}
-
+  .icongmail {
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px 0px 0px;
+  }
 

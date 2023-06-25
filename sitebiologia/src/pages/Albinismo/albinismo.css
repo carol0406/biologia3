@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Lexend-Black";
   src: url("../../fonts/Lexend-Black.ttf");
@@ -15,68 +14,25 @@
 }
 
 
-
-
-.albinismo {
-
-
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    font-family: "Lexend-Regular";
-    align-items: center;
-    
-  }
- 
-  
- .cabecalho {
+.cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   background-color: #55f27f;
   max-height: 10em;
   width: 100%;
-  padding: 0.5em;
+}
+
+.titulo-cabecalho {
+  font-size: 1.2em;
+  width: 16em;
+  padding: 1em;
   font-family: "Lexend-Bold";
-  position: static;
- }
+  text-transform: uppercase;
+}
 
-
-  .imagem-cabecalho {
-    width: 9em;
-    height: 8em;
- }
-
- .espacobranco{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #f0f0f0;
-    align-items: center;
-    padding-top: 20em;
-    padding-left: 35px;
-
-  }
-
-
-  
-.albinismo1 {
-  width:15em;
-  padding-top: 5em;
-  }
-  
-  .albinismo2 {
- 
-      width: 15em;
-     display: flex;
-     padding-right: 50px;
-    
-    }
-
-
-
-
-
-
+.imagem-cabecalho {
+  width: 12em;
+  height: 8em;
+}
