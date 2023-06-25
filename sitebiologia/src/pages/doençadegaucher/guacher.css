@@ -1,11 +1,34 @@
+@font-face {
+    font-family: "Lexend-Black";
+    src: url("../../fonts/Lexend-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "Lexend-Bold";
+    src: url("../../fonts/Lexend-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Lexend-Regular";
+    src: url("../../fonts/Lexend-Regular.ttf");
+  }
+
+
+
+
+
 .Doenca {
  align-items: center;
 padding-left: 35px;
+padding-top: 5em;
+font-family: "Lexend-Regular";
+
 }
 
 
 .imagem1 {
 width:15em;
+padding-top: 5em;
 }
 
 .imagem2 {
@@ -20,7 +43,9 @@ flex-direction: row;
 
 }
 
-.cabecalho {
+
+
+ .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,6 +54,11 @@ flex-direction: row;
     background-color: #55f27f;
     max-height: 10em;
     width: 100%;
-    padding: 2em;
+    padding: 0.5em;
     font-family: "Lexend-Bold";
+    position: static;
   }
+ .imagem-cabecalho {
+    width: 9em;
+    height: 8em;
+ }

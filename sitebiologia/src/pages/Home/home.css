@@ -26,7 +26,8 @@
     margin: 0px;
     padding: 0px;
   }
-  
+
+ 
   .cabecalho {
     display: flex;
     flex-direction: row;
@@ -85,6 +86,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+
     background-color: #f0f0f0;
     align-items: center;
   }
@@ -175,3 +177,116 @@
     background-color: #55f27f;
     width: 100%;
   }
+
+
+
+  .atendimento {
+    padding-left: 200px;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    
+
+  }
+
+  .atendimento2 {
+    padding-left: 200px;
+ flex-direction: column;
+justify-content: center;
+
+
+  }
+
+
+  .midias {
+    color: #fff;
+    padding-left: 450px;
+  
+     }
+
+
+
+  .midiassociais {
+    padding-left:440px;
+
+
+  }
+
+.email 
+{
+  color: #fff;
+    padding-left: 40px;
+    margin-bottom: 28px;  
+    display: flexbox;
+    flex-direction: column;
+}
+
+
+.email2{
+
+
+  padding-left: 430px;
+   
+
+
+}
+
+
+.geral {
+
+
+}
+
+.geral2{
+
+
+}
+
+
+
+.endereço{
+color: #fff;
+padding-left: 670px;
+
+
+}
+
+
+.endereco2{
+padding-left: 670px;
+
+
+
+}
+
+
+.fontes {
+color: #fff;
+padding-left: 1px;
+
+}
+
+
+.fontes2{
+ padding-left: 1px;
+
+
+}
+
+
+
+.Criadoras {
+color: #fff;
+padding-left: 430px;
+
+
+
+}
+
+
+.criadoras2{
+
+  color: #000;
+}
+
+
