@@ -25,27 +25,7 @@
 
  
   .cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     position: fixed;
-    background-color: #55f27f;
-    max-height: 10em;
-    width: 100%;
-  }
-
-  .titulo-cabecalho {
-    font-size: 1.2em;
-    width: 16em;
-    padding: 1em;
-    font-family: "Lexend-Bold";
-    text-transform: uppercase;
-  }
-
-  .imagem-cabecalho {
-    width: 12em;
-    height: 8em;
   }
 
   .titulo1 {
@@ -94,6 +74,7 @@
     height: 100vh;
     background-color: #ffffff;
     align-items: center;
+    padding: 5em 0em;
   }
 
   .conteudo1-textos {
@@ -122,6 +103,7 @@
     display: flex;
     width: 100%;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 
@@ -129,12 +111,13 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin: 2em 5em;
+    margin: 4em 2em;
     padding: 1em;
-    border-radius: 1.5em;
-    height: 18em;
-    width: 10em;
+    border-radius: 1em;
+    height: 27em;
+    width: 13em;
     align-items: center;
+    justify-content: center;
   }
 
   .componente-titulo {
@@ -146,8 +129,8 @@
   }
 
   .componenteimg {
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
     margin: 1em 0em;
   }
 
@@ -206,9 +189,8 @@
     flex-direction: row;
     font-family: "Lexend-Regular";
     font-size: 14px;
-    padding: 0.5em 1em;
+    padding: 0.5em 2em;
     line-height: 2.5em;
-    align-items: center;
     width: 100%;
   }
 
@@ -223,12 +205,12 @@
   .iconinstagram {
     width: 40px;
     height: 40px;
-    margin: 0px 3em 0px 0px;
+    margin: 0px 0.5em 0px 0px
   }
 
   .icongmail {
-    width: 30px;
-    height: 30px;
-    margin: 0px 10px 0px 0px;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0.5em 0px 0px;
   }
 

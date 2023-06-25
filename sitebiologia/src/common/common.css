@@ -36,14 +36,13 @@ body {
 .imagem-formatacao {
   width: 20em;
   height: 20em;
-  padding: 2em;
+  padding: 2em ;
 }
 
 p {
-  line-height: 1.5em;
+  line-height: 2em;
   text-align: justify;
 }
-
 
 .cabecalho {
   display: flex;
@@ -51,7 +50,7 @@ p {
   align-items: center;
   justify-content: space-between;
   background-color: #55f27f;
-  max-height: 10em;
+  height: 10em;
   width: 100%;
 }
 
